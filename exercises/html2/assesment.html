@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Signup Page</title>
+  </head>
+  <body>
+    <h1>Course Signup Page <h1>
+      <form action="thankyou.html" method="get">
+        <table>
+          <label for="firstName">First name:</label>
+          <input id="firstName" type="text" name="" placeholder="Jane" required>
+          <label for="lastname">Last name:</label>
+          <input id="lastName" type="text" name="" placeholder="Doe" required>
+          <label for="emailaddr">Email address:</label>
+          <input id="emailaddr" type="email" name="" placeholder="j.doe@missing.com" required>
+          <label for="passwd">Password:</label>
+          <input id="passwd" type="password" name="" placeholder="password" required>
+          <p>Are you over 18?</p>
+          <label for="isover18">Yes:</label>
+          <input id="isover18" type="radio" name="is18orover" value="18">
+          <label for="isnotover18">No:</label>
+          <input id="isnotover18" type="radio" name="is18orover" value="17">
+          <p>Prefered payment method</p>
+          <label for="paymentMethod">Accepted methods</label>
+          <select name="paymentMethod">
+            <option value="Paypal">Paypal</option>
+            <option value="Credit Card">Credit Card</option>
+            <option value="Bitcoin">Bitcoin</option>
+          </select>
+          <input type="submit" name="" value="Sign Up">
+        </table>
+      </form>
+  </body>
+</html>
