@@ -1,0 +1,54 @@
+/* This is a basic style sheet*/
+/* some text */
+/* Commented by
+Forward Slash */
+
+/* This is the basic format for a css file
+selected tag{
+  property: value;
+} */
+
+body{
+  background: url(https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350);
+  background-repeat: repeat;
+}
+
+.firstDiv{
+  background: red;
+  border-color: orange;
+  border-width: 2px;
+  border-style: dashed;
+}
+.secondDiv{
+  background: blue;
+  border-color: orange;
+  border-width: 2px;
+  border-style: dashed;
+}
+
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+p{
+  color: yellow;
+}
+
+span{
+  background: red;
+  color: black;
+}
+
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+li a{
+  color: red;
+}
+
+li a[href="http://www.npr.org"]{
+  color: blue;
+  border: 5px dashed green;
+}

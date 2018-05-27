@@ -1,0 +1,23 @@
+/* This is a basic style sheet*/
+/* some text */
+/* Commented by
+Forward Slash */
+
+/* This is the basic format for a css file
+selected tag{
+  property: value;
+} */
+
+h1{
+  color: blue;
+}
+
+li{
+  color: rgb(107, 244, 66);
+}
+p{
+  color: #42c2f4;
+}
+h4{
+  color: rgba(244, 66, 197, 0.5);
+}
